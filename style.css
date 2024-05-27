@@ -1,0 +1,97 @@
+* {
+    font-family: "Poppins", sans-serif;     
+}
+body {
+    background-color: #fafafa;
+}
+.head1 {
+font-size: 2rem;
+text-align: center;
+font-weight: 100;
+margin-bottom: 1px;
+
+}
+
+.head2 {
+    font-size: 2.1rem;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 1px;
+}
+
+.para-head {
+ margin: auto;
+text-align: center;
+font-size: 1.3rem;
+width: 340px;
+}
+
+.head1 , .para-head {
+    opacity: 40%;
+}
+
+.card {
+    max-width: 400;
+    max-height: 200;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.397) 2px 2px 3px ;
+    margin: 20px 20px;
+}
+
+.card-heading ,.card-para {
+    margin-left: 20px;
+}   
+
+.card-image {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.card-1 {
+    border-top: #94e7e5 3px solid;
+}
+
+.card-2 {
+    border-top: red 3px solid;
+}
+
+.card-3 {
+    border-top: #edaf62 3px solid;
+}
+
+.card-4 {
+    border-top: #6fabee 3px solid;
+}
+
+@media only screen and (min-width:900px)
+{
+    .pc-container {
+        display: grid;
+        grid:
+        ". go go go ."
+        ". . tb . . "
+        "sup . tb .calc "
+        "sup . kar . calc"       
+        ". . kar . ."       
+    }
+    .card-1{
+        grid-area: sup;
+    }
+
+    .card-2 {
+        grid-area: tb;
+    }
+
+    .card-3 {
+        grid-area: kar;
+    }
+
+    .card-4 {
+        grid-area: calc;
+    }
+    
+    .godpleashelp {
+        grid-area: go;
+    }
+}
